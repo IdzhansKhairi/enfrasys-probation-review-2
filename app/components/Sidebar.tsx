@@ -61,7 +61,6 @@ export default function Sidebar({ isOpen, onMenuClick }: SidebarProps) {
       '/self-discovery': 'self-discovery',
       '/work-challenges': 'work-challenges',
       '/experience-growth': 'experience-growth',
-      '/what-next': 'what-next'
     };
 
     const key = pathToKey[pathname];
@@ -103,8 +102,8 @@ export default function Sidebar({ isOpen, onMenuClick }: SidebarProps) {
   });
   sidebarItems.push({
     key: 'what-next',
-    icon: <i className='bi bi-rocket-takeoff-fill'></i>,
-    label: <Link href="/what-next" className="text-decoration-none">What's Next</Link>
+    icon: <i className='bi bi-star-fill'></i>,
+    label: <Link href="/thank-you" className="text-decoration-none">Thank You</Link>
   });
 
   

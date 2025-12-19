@@ -19,7 +19,7 @@ const ROUTES: RouteItem[] = [
   { path: "/self-discovery", title: "Self Discovery" },
   { path: "/work-challenges", title: "Work Challenges" },
   { path: "/experience-growth", title: "Experience & Growth" },
-  { path: "/what-next", title: "What's Next" },
+  { path: "/thank-you", title: "Thank You" },
   // ➜ add more pages here in the order you want the dots to represent
 ];
 

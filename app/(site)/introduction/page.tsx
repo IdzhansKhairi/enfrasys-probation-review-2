@@ -88,7 +88,7 @@ export default function IntroductionPage() {
                     <div className='card mb-3'>
                       <div className='card-body'>
                         <div className='d-flex align-items-center gap-3'>
-                          <img src='images/ai103-badge.png' className='img-fluid img-square' alt='AI-103 Certificate'/>
+                          <img src='images/ai103-badge.png' className='img-fluid w-50 p-4' alt='AI-103 Certificate'/>
                           <div className=''>
                             <h5 className='text-primary p-0 m-0'>Develop AI solutions in Azure</h5>
                             <small>Issued by <a href='https://www.credly.com/org/iverson-associates'>Iverson Associates</a></small>

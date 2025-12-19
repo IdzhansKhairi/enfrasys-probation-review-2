@@ -31,6 +31,10 @@
 - Only me working on AI (Azure AI Foundry) specifically in my team: No kawan to do work and stress together. A guidance from mentor would be beneficial.
 - No real project assigned to me that much. Mostly is just a POC or self-discovery that was asked by Choo Hoong.
 - So far currently only me doing things related to development. A guidance/mentor in this field (soft dev) to guide me would be better.
+- Lack of Open Source Projects, which prevents me from uptaking new skills (web development, deployment of LLM, AI engineering)
+
+/work-quality
+- 
 
 /experience-growth
 - Comparison from Day 1 to today.

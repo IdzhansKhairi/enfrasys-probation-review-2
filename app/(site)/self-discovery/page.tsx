@@ -33,6 +33,12 @@ export default function SelfDiscoveryPage() {
       description: 'A data visualization library built on Ant Design, providing interactive charts and graphs that integrate seamlessly with enterprise applications.',
     },
     {
+      key: 'azure',
+      image: <img src="/images/logos/azure.png" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'Azure',
+      description: 'A cloud computing platform from Microsoft for building, deploying, and managing applications and services through a global network of data centers.',
+    },
+    {
       key: 'ai-foundry',
       image: <img src="/images/logos/ai-foundry.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
       name: 'AI Foundry',
@@ -95,7 +101,7 @@ export default function SelfDiscoveryPage() {
                     ))}
                   </div> */}
                   <div className='mb-4'>
-                    <Table columns={columns} dataSource={dataSource} />
+                    <Table pagination={false} columns={columns} dataSource={dataSource} />
                   </div>
 
                   <div>

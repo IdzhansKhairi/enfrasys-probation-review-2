@@ -1,6 +1,7 @@
 "use client";
 
 import '../../globals.css';
+import './experience-growth.css';
 
 export default function ExperienceGrowthPage() {
 
@@ -9,6 +10,7 @@ export default function ExperienceGrowthPage() {
     '/images/logos/keycloak.png',
     '/images/logos/nextjs.png',
     '/images/logos/ant-charts-design.jpg',
+    '/images/logos/azure.png',
     '/images/logos/ai-foundry.jpg',
     '/images/logos/r-shiny.png',
     '/images/logos/sweetalert.jpg',
@@ -33,8 +35,45 @@ export default function ExperienceGrowthPage() {
                             ))}
                         </div>
 
-                        <div>
-                            
+                        <div className='mt-4'>
+                            <div className='row mb-4'>
+                                <div className='col-6 d-flex'>
+                                    <div className='card flex-fill'>
+                                        <img src='images/ai103-training.jpg' className='card-img-top img-square' alt='Attending AI-103 Training'/>
+                                        <div className='card-body'>
+                                            <h5 className='card-title text-secondary'>Attending Microsoft AI-103 Training / Exams</h5>
+                                            <p className='card-text text-justify'>
+                                                Gained hands-on experience with Azure AI-103, integrating AI Foundry capabilities into code. I learned about AI Search, Document Intelligence, and other AI services. Passing the certification exam soon is my next goal to formalize this learning.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='col-6 d-flex'>
+                                    <div className='card flex-fill'>
+                                        <img src='images/malaysia-vllm-day.jpg' className='card-img-top img-square' alt='Attending Malaysia VLLM Day'/>
+                                        <div className='card-body'>
+                                            <h5 className='card-title text-secondary'>Attending Malaysia's VLLM Day</h5>
+                                            <p className='card-text text-justify'>
+                                                Attended the vLLM Malaysia event, gaining knowledge about LMCache, GPU usage, and real-world LLM engineering practices, which broadened my understanding of AI engineering and inspired me to explore practical applications in my own projects.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div className='mb-4'>
+                                <div className='card'>
+                                    <img src='images/lucas-farewell.jpg' className='card-img-top img-square img-positioning' alt='Team Picture'/>
+                                    <div className='card-body'>
+                                        <h5 className='card-title text-secondary'>Team Interaction</h5>
+                                        <p className='card-text text-justify'>
+                                            So far, my interactions with the team and other colleagues have been positive, with no conflicts or issues. I rarely work directly with my immediate team members, as they focus on data-related projects. Instead, I collaborate with Albert, Syaqieb, and Lim Yun Liang on the document generator project. This is my first experience in a cross-capability discussion, where I’m developing the document generator using Flask while learning about Power Automate, which was previously unfamiliar to me. Looking forward to discover and learn more.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         
                     </div>

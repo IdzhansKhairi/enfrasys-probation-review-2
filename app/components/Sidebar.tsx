@@ -41,10 +41,14 @@ export default function Sidebar({ isOpen, onMenuClick }: SidebarProps) {
   const pathname = usePathname();
 
   // Handle menu item click - close sidebar on mobile
+  // const handleMenuClick = () => {
+  //   if (typeof window !== 'undefined' && window.innerWidth <= 768 && onMenuClick) {
+  //     onMenuClick();
+  //   }
+  // };
+
   const handleMenuClick = () => {
-    if (typeof window !== 'undefined' && window.innerWidth <= 768 && onMenuClick) {
-      onMenuClick();
-    }
+    onMenuClick?.();
   };
 
   // Get the active menu key based on current pathname
@@ -106,11 +110,11 @@ export default function Sidebar({ isOpen, onMenuClick }: SidebarProps) {
   
   return (
 
-    <div className={`${geistSans.variable} ${geistMono.variable} antialiased content-wrapper` }>
+    <div className={`${geistSans.variable} ${geistMono.variable} antialiased content-wrapper` } >
       <Sider trigger={null} collapsible width={290} className='' collapsed={!isOpen} collapsedWidth={0}
       style={{
-          position: 'absolute',
-          top: '0px',
+          position: 'fixed',
+          top: '68px',
           left: 0,
           bottom: 0,
           zIndex: 1040,

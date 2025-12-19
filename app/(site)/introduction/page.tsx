@@ -15,14 +15,14 @@ export default function IntroductionPage() {
                   <div className='row w-100 g-3 align-items-stretch'>
                     
                     {/* Name */}
-                    <div className='col'>
-                      <div className='card'>
-                        <div className='card-header'>
+                    <div className='col-4'>
+                      <div className='card flex-fill'>
+                        <div className='card-header flex-fill'>
                           <div className='d-flex justify-content-center mb-3'>
                             <i className='bi bi-person fs-2 text-primary'></i>
                           </div>  
                           <div className='d-flex justify-content-center mb-2'>
-                            <h5 className='p-0 m-0'>Muhammad Idzhans Khairi</h5>
+                            <h5 className='p-0 m-0 text-center'>Muhammad Idzhans Khairi</h5>
                           </div>
                           <div className='d-flex justify-content-center'>
                             <label className='p-0 m-0 text-secondary'>Solution Engineer</label>
@@ -32,14 +32,14 @@ export default function IntroductionPage() {
                     </div>
                     
                     {/* Start Date */}
-                    <div className='col'>
-                      <div className='card'>
-                        <div className='card-header'>
+                    <div className='col-4 d-flex'>
+                      <div className='card flex-fill'>
+                        <div className='card-header flex-fill'>
                           <div className='d-flex justify-content-center mb-3'>
                             <i className='bi bi-calendar fs-2 text-primary'></i>
                           </div>  
                           <div className='d-flex justify-content-center mb-2'>
-                            <h5 className='p-0 m-0'>Start Date</h5>
+                            <h5 className='p-0 m-0 text-center'>Start Date</h5>
                           </div>
                           <div className='d-flex justify-content-center'>
                             <label className='p-0 m-0 text-secondary'>4th August 2025</label>
@@ -49,14 +49,14 @@ export default function IntroductionPage() {
                     </div>
                     
                     {/* Department */}
-                    <div className='col'>
-                      <div className='card'>
-                        <div className='card-header'>
+                    <div className='col-4 d-flex'>
+                      <div className='card flex-fill'>
+                        <div className='card-header flex-fill'>
                           <div className='d-flex justify-content-center mb-3'>
                             <i className='bi bi-suitcase-lg fs-2 text-primary'></i>
                           </div>  
                           <div className='d-flex justify-content-center mb-2'>
-                            <h5 className='p-0 m-0'>Department</h5>
+                            <h5 className='p-0 m-0 text-center'>Department</h5>
                           </div>
                           <div className='d-flex justify-content-center'>
                             <label className='p-0 m-0 text-secondary'>ISD (Data & AI)</label>

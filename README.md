@@ -13,7 +13,13 @@
 
 /introduction
 /evaluation-form
+
 /client-related-work
+
+1. UEMG AI Search and Document Link Retrieval
+- 
+
+2. NAPIC DOCUMENT GENERATOR
 - NAPIC document generator
 - Task
 - Tech used
@@ -54,4 +60,7 @@ These documents where typed manually everytime a new report is being made.
 Due to the inability of the model itself to generate a report on it's own with limited tokens, I come out with a solution where we will use the generative model to only write, translate and also generative HTML version of the report. Then we convert it into PDF, and then convert it to docx for any editing.
 
 The application is using python flask application and deployed at Azure Web App as host.
+
+
+
 

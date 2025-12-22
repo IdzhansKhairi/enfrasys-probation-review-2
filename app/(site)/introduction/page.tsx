@@ -37,8 +37,9 @@ export default function IntroductionPage() {
                           <div className='d-flex justify-content-center mb-3'>
                             <i className='bi bi-person fs-2 text-primary'></i>
                           </div>  
-                          <div className='d-flex justify-content-center mb-2'>
+                          <div className='d-flex justify-content-center flex-column mb-2'>
                             <h5 className='p-0 m-0 text-center'>Muhammad Idzhans Khairi</h5>
+                            <small className='text-center'>ES186</small>
                           </div>
                           <div className='d-flex justify-content-center'>
                             <label className='p-0 m-0 text-secondary'>Solution Engineer</label>

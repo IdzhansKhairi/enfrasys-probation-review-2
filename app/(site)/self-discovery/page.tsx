@@ -9,6 +9,55 @@ export default function SelfDiscoveryPage() {
 
   const dataSource = [
     {
+      key: 'azure',
+      image: <img src="/images/logos/azure.png" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'Azure',
+      description: 'A cloud computing platform from Microsoft for building, deploying, and managing applications and services through a global network of data centers.',
+    },
+    {
+      key: 'ai-foundry',
+      image: <img src="/images/logos/ai-foundry.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'AI Foundry',
+      description: 'A generative AI platform from Azure for building AI-powered applications, including document generation, model deployment, and workflow automation.',
+    },
+    {
+      key: 'ai-search',
+      image: <img src="/images/logos/ai-search.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'AI Search',
+      description: 'Provides semantic search and indexing capabilities to quickly find relevant information across large sets of documents.',
+    },
+    {
+      key: 'storage-account',
+      image: <img src="/images/logos/storage-account.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'Storage Account',
+      description: 'Cloud storage solution to securely store and manage all sorts of data, files, and backups.',
+    },
+    {
+      key: 'key-vault',
+      image: <img src="/images/logos/key-vault.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'Key Vault',
+      description: 'Manages and safeguards cryptographic keys, secrets, and certificates in the cloud.',
+    },
+    {
+      key: 'logic-app',
+      image: <img src="/images/logos/logic-apps.png" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'Logic App',
+      description: 'Automates workflows and integrates apps, data, and services without writing code.',
+    },
+    {
+      key: 'app-services',
+      image: <img src="/images/logos/app-services.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'App Services',
+      description: 'Platform for building, deploying, and scaling web apps and APIs in the cloud.',
+    },
+    {
+      key: 'copilot-studio',
+      image: <img src="/images/logos/copilot-studio.png" style={{ height: '50px', objectFit: 'contain' }} />,
+      name: 'Copilot Studio',
+      description: 'Development environment for testing and prototyping AI-powered assistants or chatbots.',
+    },
+
+    {
       key: 'ant-design',
       image: <img src="/images/logos/ant-design.png" style={{ height: '50px', objectFit: 'contain' }} />,
       name: 'Ant Design',
@@ -31,18 +80,6 @@ export default function SelfDiscoveryPage() {
       image: <img src="/images/logos/ant-charts-design.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
       name: 'Ant Charts Design',
       description: 'A data visualization library built on Ant Design, providing interactive charts and graphs that integrate seamlessly with enterprise applications.',
-    },
-    {
-      key: 'azure',
-      image: <img src="/images/logos/azure.png" style={{ height: '50px', objectFit: 'contain' }} />,
-      name: 'Azure',
-      description: 'A cloud computing platform from Microsoft for building, deploying, and managing applications and services through a global network of data centers.',
-    },
-    {
-      key: 'ai-foundry',
-      image: <img src="/images/logos/ai-foundry.jpg" style={{ height: '50px', objectFit: 'contain' }} />,
-      name: 'AI Foundry',
-      description: 'A generative AI platform from Azure for building AI-powered applications, including document generation, model deployment, and workflow automation.',
     },
     {
       key: 'r-shiny',
@@ -93,7 +130,7 @@ export default function SelfDiscoveryPage() {
                     <h2 className="p-0 m-0">Self Discovery</h2>
                   </div>
 
-                  <h6 className='text-secondary text-lg mb-3'>Learning and experimenting with Microsoft and open-source tools solutions to broaden my knowledge and enhance my ability to solve future technical problems.</h6>
+                  <h6 className='text-secondary text-lg mb-3'>Learning, experimenting and experiencing with Microsoft and open-source tools solutions to broaden my knowledge and enhance my ability to solve future technical problems.</h6>
                   
                   {/* <div className='mt-4 d-flex justify-content-center no-wrap gap-3 flex-nowrap overflow-auto'>
                     {logos.map((logo, idx) => (

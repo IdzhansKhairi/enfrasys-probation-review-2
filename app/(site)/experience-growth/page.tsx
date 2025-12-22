@@ -6,16 +6,26 @@ import './experience-growth.css';
 export default function ExperienceGrowthPage() {
 
     const logos = [
-    '/images/logos/ant-design.png',
-    '/images/logos/keycloak.png',
-    '/images/logos/nextjs.png',
-    '/images/logos/ant-charts-design.jpg',
-    '/images/logos/azure.png',
-    '/images/logos/ai-foundry.jpg',
-    '/images/logos/r-shiny.png',
-    '/images/logos/sweetalert.jpg',
-    '/images/logos/bootstrap.png',
-  ];
+        '/images/logos/azure.png',
+        "/images/logos/ai-foundry.jpg",
+        "/images/logos/ai-search.jpg",
+        "/images/logos/storage-account.jpg",
+        "/images/logos/key-vault.jpg",
+        "/images/logos/logic-apps.png",
+        "/images/logos/app-services.jpg",
+        "/images/logos/copilot-studio.png",
+    ];
+
+    const logos_2 = [
+        "/images/logos/ant-design.png",
+        "/images/logos/keycloak.png",
+        "/images/logos/nextjs.png",
+        "/images/logos/ant-charts-design.jpg",
+        "/images/logos/r-shiny.png",
+        "/images/logos/sweetalert.jpg",
+        "/images/logos/bootstrap.png",
+    ]
+
 
     return (
         <div className="">
@@ -29,8 +39,13 @@ export default function ExperienceGrowthPage() {
                     
                         <h6 className='text-secondary text-lg mb-3'>Any experience and growth I have gained during my probation period.</h6>
 
-                        <div className='mt-4 d-flex justify-content-center no-wrap gap-3 flex-nowrap overflow-auto'>
+                        <div className='d-flex justify-content-center no-wrap gap-3 flex-nowrap overflow-auto'>
                             {logos.map((logo, idx) => (
+                            <img key={idx} src={logo} alt={`logo-${idx}`} style={{ height: '50px', objectFit: 'contain' }} />
+                            ))}
+                        </div>
+                        <div className='mt-4 d-flex justify-content-center no-wrap gap-3 flex-nowrap overflow-auto'>
+                            {logos_2.map((logo, idx) => (
                             <img key={idx} src={logo} alt={`logo-${idx}`} style={{ height: '50px', objectFit: 'contain' }} />
                             ))}
                         </div>
